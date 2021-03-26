@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a4c23499.chunk.css",
-    "main.js": "/portfolio/static/js/main.42db19f3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.42db19f3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.96137363.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.96137363.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9f76519.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9f76519.js.map",
     "static/js/2.a7da12ba.chunk.js": "/portfolio/static/js/2.a7da12ba.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/1 300.26f41dcc.png": "/portfolio/static/media/1 300.26f41dcc.png",
     "static/media/2 300.6db4c1ea.png": "/portfolio/static/media/2 300.6db4c1ea.png",
     "static/media/3 300.64214e03.png": "/portfolio/static/media/3 300.64214e03.png",
-    "static/media/Sherkhan.6c5a4273.pdf": "/portfolio/static/media/Sherkhan.6c5a4273.pdf",
+    "static/media/Sherkhan.97e854d5.pdf": "/portfolio/static/media/Sherkhan.97e854d5.pdf",
     "static/media/App.css": "/portfolio/static/media/bg.7b88dceb.png",
     "static/media/photo.b059cc01.png": "/portfolio/static/media/photo.b059cc01.png",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a9f76519.js",
     "static/js/2.a7da12ba.chunk.js",
     "static/css/main.a4c23499.chunk.css",
-    "static/js/main.42db19f3.chunk.js"
+    "static/js/main.96137363.chunk.js"
   ]
 }
