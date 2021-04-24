@@ -2,6 +2,8 @@ import React from "react";
 import image1 from "../../assets/images/1 300.png"
 import image2 from "../../assets/images/2 300.png"
 import image3 from "../../assets/images/3 300.png"
+import image4 from "../../assets/images/HTML.jpg"
+import image5 from "../../assets/images/React.jpg"
 
 
 const Awards = () => {
@@ -24,9 +26,19 @@ const Awards = () => {
             heading: "Благодарственное письмо",
             img: image3,
         },
+        {
+            id: 4,
+            heading: "Сертификат",
+            img: image4,
+        },
+        {
+            id: 5,
+            heading: "Сертификат",
+            img: image5,
+        },
     ]);
     return (
-        <div className="awards">
+        <div className="awards" id="awards">
             <div className="container">
                 <div className="common">
                     <h1 className="mainHeader">{header.subHeading}</h1>

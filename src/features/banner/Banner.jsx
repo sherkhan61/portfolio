@@ -7,7 +7,7 @@ import react from "../../assets/images/logo192.png"
 import redux from "../../assets/images/redux.svg"
 import ts from "../../assets/images/ts.png"
 import sass from "../../assets/images/sass.png"
-import cv from "../../assets/cv/CV.pdf"
+import cv from "../../assets/cv/Sherkhan.pdf"
 
 
 const Banner = () => {
@@ -17,7 +17,7 @@ const Banner = () => {
             "Я начинающий веб разработчик​"
     });
     return (
-        <header className="header">
+        <header className="header" id="banner">
             <div className="container">
                 <div className="row">
                     <div className="col-6">

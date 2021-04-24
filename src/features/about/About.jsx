@@ -14,7 +14,7 @@ const About = () => {
         { id: 4, title: "Linkedin", text: "sherkhan-tulkibay" },
     ]);
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="container">
                 <div className="common">
                     <h1 className="mainHeader">{header.subHeader}</h1>
@@ -30,10 +30,10 @@ const About = () => {
                         <div className="about__info">
                             <h1>Привет</h1>
                             <div className="about__info-p1">
-                                Меня зовут Шерхан. Я начинающий frontend разработчик. Стараюсь практиковаться и
-                                совершенствовать свои навыки, а также приобретать более глубокие знания в области
-                                front-end. Очень нравиться программировать. Хочу чтобы работа способствовала моему
-                                профессиональному росту.
+                                Меня зовут Шерхан. Я начинающий веб разработчик. Имею знания современных стандартов и
+                                методов разработки веб-приложений на HTML, CSS, Javascript. Опыт разработки веб приложений
+                                с React JS, Typescript препроцессором Sass. Активно использую Github. Хочу чтобы работа
+                                способствовала моему профессиональному росту.
                             </div>
                             <div className="about__info-p2">
                                 В настоящее время работаю старшим

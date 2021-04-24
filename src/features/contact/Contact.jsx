@@ -3,11 +3,19 @@ import {
     FaLinkedinIn,
     FaGithub
 } from "react-icons/fa";
+
 const Contact = () => {
+    const [header] = React.useState({
+        subHeading: "КОНТАКТЫ"
+    });
     return (
-        <div className="contact">
+        <div className="contact" id="contacts">
             <div className="container">
                 <div className="contactSection">
+                    <div className="common">
+                        <h1 className="mainHeader">{header.subHeading}</h1>
+                        <div className="commonBorder"></div>
+                    </div>
                     <div className="row justifyConter">
                         <div className="col-6">
                             <ul className="contactCircles">

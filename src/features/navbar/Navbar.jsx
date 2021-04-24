@@ -9,26 +9,28 @@ const Navbar = () => {
             <div className="container">
                 <div className="navbar__container">
                     <ul className="navbar__left">
-                        <div className="navbar__left-logo">
-                            <img src={logo} alt="logo" />
-                        </div>
+                        <a href="#banner">
+                            <div className="navbar__left-logo">
+                                <img src={logo} alt="logo" />
+                            </div>
+                        </a>
                     </ul>
                     {state ? (
                         <ul className="navbar__right">
                             <li>
-                                <a href="">ГЛАВНАЯ</a>
+                                <a href="#banner">ГЛАВНАЯ</a>
                             </li>
                             <li>
-                                <a href="">РАБОТЫ</a>
+                                <a href="#works">РАБОТЫ</a>
                             </li>
                             <li>
-                                <a href="">ОБО МНЕ</a>
+                                <a href="#about">ОБО МНЕ</a>
                             </li>
                             <li>
-                                <a href="">НАГРАДЫ</a>
+                                <a href="#awards">НАГРАДЫ</a>
                             </li>
                             <li>
-                                <a href="">КОНТАКТЫ</a>
+                                <a href="#contacts">КОНТАКТЫ</a>
                             </li>
                         </ul>
                     ) : (
