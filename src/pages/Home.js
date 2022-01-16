@@ -2,10 +2,13 @@ import React from 'react'
 import {Layout} from "../components/Layout";
 import aboutImg from '../assets/images/about-img.jpeg'
 import smallImg from '../assets/images/small.png'
+
 import project1 from '../assets/images/foxrichcode.JPG'
 import project2 from '../assets/images/hotel.JPG'
 import project3 from '../assets/images/movie.JPG'
-import project4 from '../assets/images/project-4.jpeg'
+import project4 from '../assets/images/synaq.JPG'
+import project5 from '../assets/images/e-commerce.JPG'
+
 import backgroundVideo from '../assets/videos/connect.mp4'
 import {Link} from "react-router-dom";
 import cv from "../assets/cv/CV(eng)-Sherkhan.pdf";
@@ -31,14 +34,14 @@ const Home = () => {
                                 <a href="https://github.com/sherkhan61"
                                    className="social-icon"
                                    target="_blank" rel="noopener">
-                                    <i className="fab fa-github"></i>
+                                    <i className="fab fa-github" />
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/sherkhan-tulkibay/"
                                    className="social-icon"
                                    target="_blank" rel="noopener">
-                                    <i className="fab fa-linkedin"></i>
+                                    <i className="fab fa-linkedin" />
                                 </a>
                             </li>
                         </ul>
@@ -92,7 +95,7 @@ const Home = () => {
                 <div className="services-center section-center">
 
                     <article className="service">
-                        <i className="fas fa-code service-icon"></i>
+                        <i className="fas fa-code service-icon" />
                         <h4>web development</h4>
                         <div className="underline"></div>
                         <p>
@@ -103,7 +106,7 @@ const Home = () => {
                     </article>
 
                     <article className="service">
-                        <i className="fab fa-sketch service-icon"></i>
+                        <i className="fab fa-sketch service-icon" />
                         <h4>web design</h4>
                         <div className="underline"></div>
                         <p>
@@ -114,7 +117,7 @@ const Home = () => {
                     </article>
 
                     <article className="service">
-                        <i className="fab fa-android service-icon"></i>
+                        <i className="fab fa-android service-icon" />
                         <h4>app design</h4>
                         <div className="underline"></div>
                         <p>
@@ -190,8 +193,20 @@ const Home = () => {
                                 className="project-img"
                             />
                             <div className="project-info">
-                                <h4>project title</h4>
-                                <p>client name</p>
+                                <h4>Internet portal</h4>
+                            </div>
+                        </article>
+                    </Link>
+
+                    <Link to="/projects" className="project-5">
+                        <article className="project">
+                            <img
+                                src={project5}
+                                alt="single project"
+                                className="project-img"
+                            />
+                            <div className="project-info">
+                                <h4>E-commerce</h4>
                             </div>
                         </article>
                     </Link>
@@ -318,61 +333,10 @@ const Home = () => {
                         <div className="card-side card-front">
                             <img src={project1} alt="" />
                             <div className="card-info">
-                                <h4>article title</h4>
+                                <h4>Information website</h4>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                                    nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                                    Natus, provident.
-                                </p>
-                                <div className="card-footer">
-                                    <img src={smallImg} alt="author image" />
-                                    <p>7 min read</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card-side card-back">
-                            <button className="btn">
-                                <Link to={'/projects'}>read more</Link>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="card">
-
-                        <div className="card-side card-front">
-                            <img src={project2} alt="" />
-                            <div className="card-info">
-                                <h4>article title</h4>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                                    nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                                    Natus, provident.
-                                </p>
-                                <div className="card-footer">
-                                    <img src={smallImg} alt="author image" />
-                                    <p>7 min read</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="card-side card-back">
-                            <button className="btn">
-                                <Link to={'/projects'}>read more</Link>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className="card">
-
-                        <div className="card-side card-front">
-                            <img src={project3} alt="" />
-                            <div className="card-info">
-                                <h4>article title</h4>
-                                <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                                    nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                                    Natus, provident.
+                                    Foxrichcode.com - My own information website about web development, mobile development,
+                                    cyber security and artificial intelligence
                                 </p>
                                 <div className="card-footer">
                                     <img src={smallImg} alt="author image" />
@@ -393,11 +357,80 @@ const Home = () => {
                         <div className="card-side card-front">
                             <img src={project4} alt="" />
                             <div className="card-info">
-                                <h4>article title</h4>
+                                <h4>Internet portal</h4>
                                 <p>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-                                    nisi ut a est eum tempora dolorum temporibus voluptatibus!
-                                    Natus, provident.
+                                    Internet portal of the state technical service designed to automate the
+                                    process of providing services for testing the objects of informatization of
+                                    "electronic government" and information systems
+                                </p>
+                                <div className="card-footer">
+                                    <img src={smallImg} alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card-side card-back">
+                            <button className="btn">
+                                <Link to={'/projects'}>read more</Link>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="card">
+
+                        <div className="card-side card-front">
+                            <img src={project2} alt="" />
+                            <div className="card-info">
+                                <h4>Hotel website</h4>
+                                <p>
+                                    Website for a wonderful hotel by the sea with luxurious rooms
+                                </p>
+                                <div className="card-footer">
+                                    <img src={smallImg} alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card-side card-back">
+                            <button className="btn">
+                                <Link to={'/projects'}>read more</Link>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="card">
+
+                        <div className="card-side card-front">
+                            <img src={project3} alt="" />
+                            <div className="card-info">
+                                <h4>Movie website</h4>
+                                <p>
+                                    Website for selecting and viewing a teaser of new movies
+                                </p>
+                                <div className="card-footer">
+                                    <img src={smallImg} alt="author image" />
+                                    <p>7 min read</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card-side card-back">
+                            <button className="btn">
+                                <Link to={'/projects'}>read more</Link>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="card">
+
+                        <div className="card-side card-front">
+                            <img src={project5} alt="" />
+                            <div className="card-info">
+                                <h4>E-commerce</h4>
+                                <p>
+                                    Website for buying and ordering online
                                 </p>
                                 <div className="card-footer">
                                     <img src={smallImg} alt="author image" />

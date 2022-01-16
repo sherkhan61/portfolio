@@ -1,23 +1,14 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import logo from '../assets/images/logo.svg'
 import image from '../assets/images/photo.jpg'
 import cv from '../assets/cv/CV(eng)-Sherkhan.pdf'
 import {Link} from "react-router-dom";
 
-const navbar = document.querySelector("#nav");
-
-
-window.addEventListener("scroll", function () {
-    if (window.pageYOffset > 80) {
-        navbar.classList.add("navbar-fixed");
-    } else {
-        navbar.classList.remove("navbar-fixed");
-    }
-});
 
 
 export const Navbar = () => {
     const [sidebar, setSidebar] = useState("showSidebar")
+    const [offset, setOffset] = useState(0);
 
     const handleToggle = () => {
         setSidebar({
@@ -25,10 +16,17 @@ export const Navbar = () => {
         })
     }
 
+    useEffect(() => {
+        const onScroll = () => setOffset(window.pageYOffset);
+        // clean up code
+        window.removeEventListener('scroll', onScroll);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
 
     return (
         <>
-            <nav className="nav" id="nav">
+            <nav className={offset ? "navbar-fixed" : "nav"} id="nav">
                 <div className="nav-center">
 
                     <div className="nav-header">

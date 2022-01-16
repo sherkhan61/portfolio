@@ -580,8 +580,8 @@ Projects
         grid-template-rows: 200px 200px;
         gap: 1rem;
         grid-template-areas:
-                "a b b"
-                "a c d";
+                "a b c"
+                "a d e";
     }
     .project-img {
         height: 100%;
