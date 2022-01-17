@@ -6,6 +6,7 @@ import project1 from '../assets/images/foxrichcode-com.JPG'
 import project2 from '../assets/images/hotel.JPG'
 import project3 from '../assets/images/movie.JPG'
 import project4 from '../assets/images/synaq.JPG'
+import project5 from '../assets/images/e-commerce.JPG'
 
 
 const Projects = () => {
@@ -40,6 +41,34 @@ const Projects = () => {
                             </div>
                         </div>
                     </article>
+
+                    <article className="single-project">
+                        <div className="project-container">
+                            <img src={project4} alt="single project"/>
+                            <a href="https://synaq.sts.kz/"
+                               className="project-icon" target="_blank"
+                               rel="noreferrer">
+                                <i className="fas fa-home"/>
+                            </a>
+                        </div>
+                        <div className="project-details">
+                            <h4>Information website</h4>
+                            <p>
+                                Internet portal of the state technical service designed to automate the
+                                process of providing services for testing the objects of informatization of
+                                "electronic government" and information systems
+                            </p>
+                            <p>Technologies: JS, jQuery, CSS3</p>
+                            <div className="project-footer">
+                                <span>
+                                    <i className="fab fa-github"/>
+                                </span>
+                                <a href="https://github.com/sherkhan61"
+                                   target="_blank" rel="noreferrer">source code</a>
+                            </div>
+                        </div>
+                    </article>
+
                     <article className="single-project">
                         <div className="project-container">
                             <img src={project2} alt="single project"/>
@@ -86,33 +115,30 @@ const Projects = () => {
                             </div>
                         </div>
                     </article>
+
                     <article className="single-project">
                         <div className="project-container">
-                            <img src={project4} alt="single project"/>
-                            <a href="https://synaq.sts.kz/"
-                               className="project-icon" target="_blank"
-                               rel="noreferrer">
+                            <img src={project5} alt="single project"/>
+                            <a href="https://sherkhan-e-store.netlify.app/"
+                               className="project-icon" target="_blank" rel="noreferrer">
                                 <i className="fas fa-home"/>
                             </a>
                         </div>
                         <div className="project-details">
-                            <h4>Information website</h4>
+                            <h4>E commerce</h4>
                             <p>
-                                Internet portal of the state technical service designed to automate the
-                                process of providing services for testing the objects of informatization of
-                                "electronic government" and information systems
+                                Website for buying and ordering online
                             </p>
-                            <p>Technologies: JS, jQuery, CSS3</p>
+                            <p>Technologies: React.js, Stripe.js, Material UI</p>
                             <div className="project-footer">
                                 <span>
                                     <i className="fab fa-github"/>
                                 </span>
-                                <a href="https://github.com/sherkhan61"
+                                <a href="https://github.com/sherkhan61/e-commerce"
                                    target="_blank" rel="noreferrer">source code</a>
                             </div>
                         </div>
                     </article>
-
                 </div>
             </section>
         </Layout>
