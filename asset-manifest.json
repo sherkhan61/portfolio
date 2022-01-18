@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio-2/static/css/main.760b1e35.css",
-    "main.js": "/portfolio-2/static/js/main.b750cc6e.js",
+    "main.js": "/portfolio-2/static/js/main.fddef12d.js",
     "static/js/787.8b1cf42d.chunk.js": "/portfolio-2/static/js/787.8b1cf42d.chunk.js",
     "static/media/connect.mp4": "/portfolio-2/static/media/connect.332a6031b8508eb8b84f.mp4",
-    "static/media/CV(eng)-Sherkhan.pdf": "/portfolio-2/static/media/CV(eng)-Sherkhan.4aa6a313fffaa9d93547.pdf",
+    "static/media/CV(eng)-Sherkhan.pdf": "/portfolio-2/static/media/CV(eng)-Sherkhan.e520a990b5cdff34758b.pdf",
     "static/media/movie.JPG": "/portfolio-2/static/media/movie.a72cfefb9a3c1efea99d.JPG",
     "static/media/hotel.JPG": "/portfolio-2/static/media/hotel.49be7322fdb88a459bbb.JPG",
     "static/media/foxrichcode-com.JPG": "/portfolio-2/static/media/foxrichcode-com.9c323d02e86b3104e1ee.JPG",
     "static/media/e-commerce.JPG": "/portfolio-2/static/media/e-commerce.eb31c535d011676f2bd0.JPG",
     "static/media/foxrichcode.JPG": "/portfolio-2/static/media/foxrichcode.705c0a8c58dcf2bcc206.JPG",
-    "static/media/about-img.jpeg": "/portfolio-2/static/media/about-img.f84f807271176f5087e2.jpeg",
     "static/media/synaq.JPG": "/portfolio-2/static/media/synaq.6a55d294b18db4a44986.JPG",
+    "static/media/about-img.jpg": "/portfolio-2/static/media/about-img.95bce452498777f85e6d.jpg",
     "static/media/small.jpg": "/portfolio-2/static/media/small.b059cc01dc1b672a5159.jpg",
     "static/media/logo.svg": "/portfolio-2/static/media/logo.86419c11baa63a6f214e0202094bc292.svg",
     "index.html": "/portfolio-2/index.html",
     "main.760b1e35.css.map": "/portfolio-2/static/css/main.760b1e35.css.map",
-    "main.b750cc6e.js.map": "/portfolio-2/static/js/main.b750cc6e.js.map",
+    "main.fddef12d.js.map": "/portfolio-2/static/js/main.fddef12d.js.map",
     "787.8b1cf42d.chunk.js.map": "/portfolio-2/static/js/787.8b1cf42d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.760b1e35.css",
-    "static/js/main.b750cc6e.js"
+    "static/js/main.fddef12d.js"
   ]
 }
