@@ -12,9 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="38ddce5f-dea3-4bdb-b898-59e7c025544c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/cv/CV(eng)-Sherkhan.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/cv/CV(eng)-Sherkhan.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/about-img.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/foxrichcode.com/foxrichcode" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
@@ -107,6 +110,14 @@
       <workItem from="1642363167159" duration="510000" />
       <workItem from="1642363703673" duration="1472000" />
       <workItem from="1642395503638" duration="1784000" />
+      <workItem from="1642402226105" duration="329000" />
+      <workItem from="1642402556695" duration="41000" />
+      <workItem from="1642403171452" duration="777000" />
+      <workItem from="1642404201822" duration="2369000" />
+      <workItem from="1642506153003" duration="12000" />
+      <workItem from="1642511834326" duration="606000" />
+      <workItem from="1642603095784" duration="612000" />
+      <workItem from="1642692199426" duration="16000" />
     </task>
     <servers />
   </component>
@@ -130,10 +141,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1642332426379" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1642352237871">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1642692213129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642352237871" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1642692213129" />
     <state width="1515" height="224" key="GridCell.Tab.0.bottom" timestamp="1642397285893">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -154,10 +165,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1642328015997" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1642358049438">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1642405784690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1642358049438" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1642405784690" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1642328018353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

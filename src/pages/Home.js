@@ -1,7 +1,7 @@
 import React from 'react'
 import {Layout} from "../components/Layout";
-import aboutImg from '../assets/images/about-img.jpeg'
-import smallImg from '../assets/images/small.png'
+import aboutImg from '../assets/images/about-img.jpg'
+import smallImg from '../assets/images/small.jpg'
 
 import project1 from '../assets/images/foxrichcode.JPG'
 import project2 from '../assets/images/hotel.JPG'

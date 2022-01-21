@@ -39,7 +39,7 @@ export const Navbar = () => {
 
                     <ul className="nav-links">
                         <li>
-                            <Link to={'/'}>home</Link>
+                            <Link to={'/portfolio-2'}>home</Link>
                         </li>
                         <li>
                             <Link to={'/about'}>about</Link>
@@ -63,7 +63,7 @@ export const Navbar = () => {
 
                     <ul className="sidebar-links">
                         <li>
-                            <Link to={'/'}>home</Link>
+                            <Link to={'/portfolio-2'}>home</Link>
                         </li>
                         <li>
                             <Link to={'/about'}>about</Link>

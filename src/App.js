@@ -11,7 +11,7 @@ function App() {
                 <Fragment>
                     <Suspense fallback={<Preloader/>}>
                         <Routes>
-                            <Route exact path={"/"} element={<Home />} />
+                            <Route exact path={"/portfolio-2"} element={<Home />} />
                             <Route path={"/about"} element={<About />} />
                             <Route path={"/projects"} element={<Projects />} />
                             <Route path={"/contact"} element={<Contact />} />
